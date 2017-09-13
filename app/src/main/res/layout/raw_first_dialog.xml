@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="180dp"
+        android:layout_height="150dp">
+
+        <TextView
+            android:id="@+id/tv_DIALOG"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:background="@drawable/tv_dialog_border"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:lines="3"
+            android:text="Please wait
+  looking up address
+  from current GPS... "
+            android:textColor="#acaaaa"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>
